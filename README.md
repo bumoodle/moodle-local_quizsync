@@ -17,9 +17,9 @@ Installation
 
 To install Moodle 2.1+ using git, execute the following commands in the root of your Moodle install:
 
-    git clone git://github.com/ktemkin/moodle-local_quizsync.git local/quizsync
+    git clone git://github.com/bumoodle/moodle-local_quizsync.git local/quizsync
     echo '/local/quizsync' >> .git/info/exclude
     
 Or, extract the following zip in your_moodle_root/local/:
 
-    https://github.com/ktemkin/moodle-local_quizsync/zipball/master
+    https://github.com/bumoodle/moodle-local_quizsync/zipball/master
