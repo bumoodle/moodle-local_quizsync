@@ -1,7 +1,8 @@
-Quiz Sync Local Plugin for Moodle 2.2+
+Quiz Sync Local Plugin for Moodle 2.3+
 ==================================================
 
 Authored by Kyle Temkin, working for Binghamton University <http://www.binghamton.edu>
+A Moodle 2.2 version is available in the MOODLE_22_STABLE branch.
 
 Description
 ---------------
@@ -15,7 +16,7 @@ This is a special library which allows Quiz attempts to be copied and "synchroni
 Installation
 -----------------
 
-To install Moodle 2.1+ using git, execute the following commands in the root of your Moodle install:
+To install Moodle 2.3+ using git, execute the following commands in the root of your Moodle install:
 
     git clone git://github.com/bumoodle/moodle-local_quizsync.git local/quizsync
     echo '/local/quizsync' >> .git/info/exclude
