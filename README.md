@@ -1,7 +1,7 @@
 Quiz Sync Local Plugin for Moodle 2.3+
 ==================================================
 
-Authored by Kyle Temkin, working for Binghamton University <http://www.binghamton.edu>
+Authored by Kyle Temkin, working for Binghamton University (http://www.binghamton.edu)
 A Moodle 2.2 version is available in the MOODLE_22_STABLE branch.
 
 Description
@@ -10,7 +10,7 @@ Description
 This is a special library which allows Quiz attempts to be copied and "synchronized" between users; and allows raw QUBAs to be converted into quiz attempts. It has a few uses, currently:
 
 * When combined with the Partner question type, it allows students to share a quiz attempt with a partner- like a lab partner.
-* Provides the backbone for the Prinable Quizzes modificatio, which allows paper assignments to be scanned (or read using a scan-tron machine) and then automatically graded by moodle.
+* Provides the backbone for the Printable Quizzes modification, which allows paper assignments to be scanned (or read using a scan-tron machine) and then automatically graded by moodle.
 
 
 Installation
