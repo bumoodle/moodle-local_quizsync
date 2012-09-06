@@ -213,7 +213,7 @@ class quiz_synchronization
 
             //wrap the attempt data in an quiz_attempt object, and ask it to finish
             $attempt_object = new quiz_attempt($attempt, $quiz->get_quiz(), $quiz->get_cm(), $quiz->get_course(), true);
-            $attempt_object->finish_attempt($time_now);
+            $attempt_object->process_finish($time_now, true);
 
             //save the attempt _again_, this compensates for an attemptlib that does not have MDL-31407
             quiz_save_best_grade($attempt_object->get_quiz(), $attempt_object->get_userid());
