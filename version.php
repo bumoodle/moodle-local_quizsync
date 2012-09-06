@@ -26,8 +26,8 @@
  
 defined('MOODLE_INTERNAL') || die();
  
-$plugin->version   = 2011041501;
-$plugin->requires  = 2011070100; //requires Moodle 2.1+
+$plugin->version   = 2012090500;
+$plugin->requires  = 2012062500; //requires Moodle 2.3+
 $plugin->cron      = 0;
 $plugin->component = 'local_quizsync';
 $plugin->maturity  = MATURITY_BETA;
